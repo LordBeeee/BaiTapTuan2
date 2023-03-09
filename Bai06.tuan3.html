@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <style>
+            .container, .row{
+                width: 100%;
+            }
+            .row::before, .row::after{
+                display: table;
+                content: "";
+            }
+            .row::after{
+                clear:both;
+            }
+            .col1, .col2, .col3 {
+                float: left;
+                width: 25.333333333%;
+                margin: 1%;
+                padding: 1%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos harum excepturi aliquam minima! Totam laborum expedita id deserunt eligendi optio autem recusandae culpa mollitia, aliquam et sunt qui quia dignissimos!</p>
+                </div>
+                <div class="col2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sunt adipisci itaque hic amet tempora commodi. Neque cum expedita fugit eveniet ullam ut, tenetur nesciunt, accusantium veritatis vero vel excepturi?</p>
+                </div>
+                <div class="col3">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit perspiciatis officia a esse sit cum culpa, aut, dolorem quos labore quo ad aliquam! Nisi id tenetur amet sequi voluptas hic.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur mollitia possimus repellendus quia magni fugit dolorem quibusdam maiores soluta laudantium beatae, vero recusandae, iusto quam distinctio magnam? Cupiditate, beatae vel.</p>
+                </div>
+                <div class="col2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta sed officia laborum minima ipsa. Non, fugit dolor. Voluptatibus nostrum vitae, sunt, incidunt quod, non placeat sit enim quis sapiente corporis.</p>
+                </div>
+                <div class="col3">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis officiis, odio corporis hic praesentium, sit doloremque quae culpa iste alias soluta dicta ipsum quos! Magnam totam doloribus laboriosam laborum ut?</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
